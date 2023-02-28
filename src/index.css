@@ -11,3 +11,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pic {
+  height: 200px;
+  width: 150px;
+}
+
+.btnTop {
+  margin: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #3498db;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-delete {
+  background-color: #e74c3c;
+  border: none;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.tab {
+  border: 2px solid black;
+}
+
+.trTitle th {
+  width: 200px;
+}
+
+.containerBody {
+  background-color: pink;
+}
